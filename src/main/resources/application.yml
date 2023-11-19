@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: hidirekt_test
+    password: ;sFQ~Kpjrfm)
+    url: jdbc:mysql://89.252.138.99:3306/hidirekt_test
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.dialect: org.hibernate.dialect.MySQLDialect
